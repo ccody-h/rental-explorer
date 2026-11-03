@@ -1,0 +1,44 @@
+# Dependencies in both frontend and backend.
+node_modules/
+
+# Generated frontend builds and tool caches.
+dist/
+build/
+.vite/
+.eslintcache
+coverage/
+
+# Local environment settings; keep shareable examples.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local TLS certificates and private keys.
+/back-end/certs/*.key
+/back-end/certs/*.cert
+/back-end/certs/*.crt
+*.pem
+*.p12
+*.pfx
+
+# Logs and runtime files.
+logs/
+*.log
+*.pid
+*.pid.lock
+
+# Local database dump; publish reviewed sample data separately.
+/back-end/dump.sql
+
+# Operating system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal editor settings.
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
